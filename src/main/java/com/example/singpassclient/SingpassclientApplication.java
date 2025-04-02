@@ -34,7 +34,9 @@ public class SingpassclientApplication {
 			} catch(Exception exception){
 				exception.printStackTrace();
 			}
+			System.exit(0);
 		};
+
 	}
 
 }
